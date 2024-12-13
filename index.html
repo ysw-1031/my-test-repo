@@ -943,7 +943,7 @@
         // actions
         sendMessage(msg_id, with_webview) {
             if (!DemoApp.initDataUnsafe.query_id) {
-                alert('WebViewQueryId not defined Unsafe' + Telegram.WebApp.initDataUnsafe);
+                alert('WebViewQueryId not defined dataUnsafe' + JSON.stringify(Telegram.WebApp.initDataUnsafe));
                 return;
             }
 
